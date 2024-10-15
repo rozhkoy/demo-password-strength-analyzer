@@ -10,7 +10,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { MetricsDisplay } from "./modules/MetricsDisplay";
+import { MetricsDisplay } from "./modules/metricsDisplay";
 
 function App() {
   const [score, setScore] = useState(0);
